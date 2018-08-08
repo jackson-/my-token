@@ -1,0 +1,20 @@
+{
+  "name": "my-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jackson-/my-token.git",
+  "author": "jackson- <jackson.t.devin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tx": "node tx.js"
+  },
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-util": "^5.2.0",
+    "ethjs-util": "^0.1.6",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sha256": "^0.2.0",
+    "web3": "^1.0.0-beta.35"
+  }
+}

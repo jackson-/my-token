@@ -7,13 +7,13 @@ contract('DappToken', function(accounts){
             tokenInstance = instance;
             return tokenInstance.name();
         }).then(function(name){
-            assert.equal(name, "DappToken")
+            assert.equal(name, "DevinToken")
             return tokenInstance.symbol();
         }).then(function(symbol){
-            assert.equal(symbol, "DAPP")
+            assert.equal(symbol, "DEVIN")
             return tokenInstance.standard();
         }).then(function(standard){
-            assert.equal(standard, "DappToken 1.0")
+            assert.equal(standard, "DevinToken 1.0")
         })
     })
     

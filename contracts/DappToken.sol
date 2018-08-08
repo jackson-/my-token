@@ -1,11 +1,11 @@
 pragma solidity ^0.4.2;
 
 contract DappToken {
-    string public name = "DappToken";
+    string public name = "DevinToken";
     
-    string public symbol = "DAPP";
+    string public symbol = "DEVIN";
 
-    string public standard = "DappToken 1.0";
+    string public standard = "DevinToken 1.0";
 
     uint256 public totalSupply;
 
